@@ -1,0 +1,117 @@
+.input{
+	margin-top: 3px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+blockquote{
+	border-color: rgba(204, 11, 11, 0.48);
+}
+
+.formBtn{
+	padding: 6px 12px;
+	margin-left: 10px;
+}
+
+/*.smart-form .label{
+	font-size: 11px;
+	margin-bottom: 0px;
+}*/
+
+.uppercase{
+	/*text-transform: uppercase;*/
+}
+
+span[role=status]{
+	visibility: hidden;
+}
+
+.toFor{
+	color:#356E35;
+	font-weight: bolder;
+}
+
+.toForDesc{
+	text-transform: uppercase;
+    color: #446386;
+    font-weight: bolder;
+}
+
+.from-to{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.4; }
+}
+
+.webloading {
+	display: 	block;
+	position:   absolute;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba(50, 52, 56, 0.11) 
+                url('../img/loadorange.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.leyenda{
+	border-bottom: 2px solid #456;
+	border-top: 2px solid #456;
+	background-color: #505050;
+	color: #FFF;
+}
+
+.padding-bottom-10{
+	padding-bottom: 10px;
+}
+
+.factura-totals{
+	width: 60px;
+
+}
+
+.smart-form fieldset{
+	padding: 10px 14px 5px;
+}
+
+.smart-btn{
+	margin-top: 3px;
+	padding: 6px 12px;
+}
+
+td[role=gridcell] {      /* CSS3 */   
+   word-wrap: normal !important;      /* CSS3 */   
+   white-space: pre-line !important;
+   font-size: 11px;
+}
+
+.space{
+	height: 30px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
